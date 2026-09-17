@@ -14,12 +14,15 @@ int main(void)
     printf("float = %.2f\n", f);
     printf("double = %.3lf\n", d);
 
-    
     printf("Num \t %d\n", num);
-    printf("long \n %ld\n", l);
-    printf("char \b %c\n", ch);
-    printf("float \' %.2f\n", f);
-    printf("double \\ %.3lf\n", d);
+    printf("long \t %ld\n", l);
+    printf("char \t %c\n", ch);
+    printf("float \t %.2f\n", f);
+    printf("double \t %.3lf\n", d);
 
     return 0;
+    
+
+
+
 }
